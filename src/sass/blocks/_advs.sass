@@ -1,0 +1,64 @@
+.advs
+    min-height: 700px
+    position: relative
+    .container
+        display: flex
+        justify-content: space-between
+    &__img
+        width: 540px
+    &__wrapper
+        width: 540px
+
+    &__list
+        height: 356px
+        border: 1px solid #E7E7E7
+        border-radius: 20px
+
+        overflow: hidden
+    &__item
+        height: 88px
+        display: flex
+        align-items: center
+        padding: 0 40px  
+        cursor: pointer
+
+        display: flex
+        justify-content: space-between
+        transition: .3s all
+        &:hover
+            background-color: #eee
+        &-header
+            font-size: 16px
+            line-height: 28px
+            text-transform: uppercase
+            color: #000000
+        &-plus
+            display: block
+            width: 18px
+            height: 18px
+            position: relative
+            &::before
+                content: ''
+                display: block
+                width: 18px
+                height: 2px
+                background-color: #0057FF
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+            &::after
+                content: ''
+                display: block
+                width: 18px
+                height: 2px
+                background-color: #0057FF
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%) rotate(90deg)
+    &__ltri
+        width: 100px
+        position: absolute
+        left: 54px
+        bottom: 60px

@@ -1,0 +1,74 @@
+.reviews
+    min-height: 425px
+    margin-bottom: 140px
+    &__dots
+        width: 22px
+        height: 8px
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+    &__dot
+        display: block
+        width: 8px
+        height: 8px
+        background-color: rgba(34, 34, 34, 0.4)
+        border-radius: 100%
+        &_active
+            background-color: #222222
+
+.slider
+    position: relative
+    margin-bottom: 30px
+    &__wrapper
+        overflow: hidden
+    &__items
+        display: flex
+        justify-content: space-between
+        flex-wrap: nowrap
+    &__item
+        width: 380px
+        height: 345px
+        background: #FFFFFF
+        border: 1px solid #E7E7E7
+        border-radius: 10px
+        padding: 40px
+        margin-right: 20px
+
+        display: flex
+        flex-direction: column
+        align-items: center
+        &-descr
+            font-size: 14px
+            line-height: 24px
+            text-align: center
+            margin-bottom: 5px
+        &-img
+            margin-bottom: 20px
+            img
+                width: 80px
+        &-name
+            font-size: 20px
+            line-height: 30px
+            text-transform: uppercase
+        &-prof
+            font-size: 13px
+            line-height: 24px
+            text-transform: uppercase
+            margin-bottom: 10px
+        &-stars
+            img
+                width: 18px
+    &__next
+        width: 48px
+        height: 48px
+        background: #FFFFFF
+        border: 1px solid #E7E7E7
+        box-shadow: 0px 11px 24px rgba(0, 0, 0, 0.09)
+        border-radius: 6px
+
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        top: 50%
+        right: -20px

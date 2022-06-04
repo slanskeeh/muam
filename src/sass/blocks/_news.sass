@@ -1,0 +1,99 @@
+.news
+    margin-bottom: 100px
+    position: relative
+    &__subtitle
+        font-size: 12px
+        line-height: 22px
+        text-align: center
+        letter-spacing: 0.5px
+        text-transform: uppercase
+        color: #0057FF
+        margin-bottom: 5px
+    &__title
+        font-size: 40px
+        line-height: 48px
+        text-align: center
+        letter-spacing: 1px
+        text-transform: uppercase
+        color: #000000
+        margin-bottom: 66px
+
+    &__grid
+        display: flex
+        justify-content: space-between
+    
+    &__wrapper
+        width: 562px
+        height: 496px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+    &__item
+        padding: 20px
+        height: 240px
+        background: #FFFFFF
+        border: 1px solid #D9DCEC
+        border-radius: 10px
+
+        display: flex
+
+        &-img
+            margin-right: 30px
+        &-topic
+            font-size: 11px
+            line-height: 20px
+            text-transform: uppercase
+            color: #0057FF
+            margin-top: 35px
+        &-title
+            font-size: 20px
+            line-height: 30px
+            text-transform: uppercase
+            color: #000000
+            margin-bottom: 24px
+        &-descr
+            font-size: 14px
+            line-height: 24px
+            color: #000000
+
+    &__big
+        background: #FFFFFF
+        border: 1px solid #D9DCEC
+        border-radius: 10px
+        padding: 20px
+        position: relative
+        justify-content: flex-end
+        &-img
+            width: 522px
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            z-index: 10
+        &-topic
+            z-index: 20
+            font-size: 11px
+            line-height: 20px
+            text-transform: uppercase
+            color: #0057FF
+            margin-left: 30px
+        &-title
+            z-index: 20
+            font-size: 40px
+            line-height: 50px
+            text-transform: uppercase
+            color: #000000
+            margin-left: 30px
+            margin-bottom: 35px
+
+    &__ltri
+        width: 60px
+        position: absolute
+        top: 44px
+        left: 132px
+    &__rtri
+        width: 95px
+        position: absolute
+        top: 340px
+        right: 0
